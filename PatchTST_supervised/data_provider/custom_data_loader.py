@@ -24,7 +24,7 @@ class Dataset_Custom_stock(Dataset):
         type_map = {'train': 0, 'val': 1, 'test': 2}
         self.set_type = type_map[flag]
 
-        self.date_str = 'trade_date' #'date' 
+        self.date_str = 'date' #'trade_date'
 
         self.features = features
         self.target = target
